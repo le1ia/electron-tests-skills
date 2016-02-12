@@ -11,6 +11,7 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "electron-prebuilt": "^0.36.2",
+    "mocha": "^2.4.5",
     "selenium-webdriver": "^2.48.2",
     "webdriverio": "^3.4.0"
   }
