@@ -5,12 +5,14 @@
 ```
 npm install
 electron .
+npm install webdriverio
+npm install mocha -g
+npm install chai -g
+./tests/chromedriver --url-base=wd/hub --port=9515
 ```
 
-
-## To run automated tests
-(assuming tests are implemented in tests/yourTestCode.js)
+## To run webdriverio tests with mocha
 
 ```
-npm test
+mocha tests
 ```
