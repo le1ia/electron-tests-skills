@@ -6,6 +6,7 @@
 npm install
 electron .
 npm install webdriverio
+npm install electron-prebuilt -g
 npm install mocha -g
 npm install chai -g
 ./tests/chromedriver --url-base=wd/hub --port=9515
